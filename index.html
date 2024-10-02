@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: #295ba5;
+            height: 98vh;
+            width: 98vw;
+            margin: auto;
+
+
+
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+
+        }
+        main{
+            margin: 500px 0px;
+            border-radius: 10px;
+
+
+            flex: auto;
+        }
+        #imagem{
+            background-color: #295ba5;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div id="imagem">
+            <img src="imagens/DigitalNet_03_1-8.png" alt="Logo DigitalNet"> 
+        </div>
+        <section>
+                <form action="login.php" method="post" autocomplete="on">
+                    <input class="Form" type="email" name="login" id="ilogin" placeholder="Usuário" required maxlength="10">
+                    <br>
+                    <input class="Form" type="password" name="senha" id="isenha" placeholder="Senha" required maxlength="20">
+                    <br>
+                    <input type="submit" value="Entrar">
+                </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -19,12 +19,21 @@ Primarias
 }
 body,html{
     background-color: #295ba5;
-    height: 100vh;
-    width: 100vw;
+    height: 98vh;
+    width: 98vw;
+    margin: auto;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 
 }
-main{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+div#imagem{
+    width: 30vw;
+}
+section{
+    flex: auto;
+    margin-top: 300px;
+
 }

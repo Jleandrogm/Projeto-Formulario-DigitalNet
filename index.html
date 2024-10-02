@@ -9,14 +9,15 @@
 </head>
 <body>
         <section>
-            <div id="imagem">
-                <img src="imagens/DigitalNet_03_1-8.png" alt="Logo DigitalNet"
-                width="200px" height="60px"> 
-            </div>
+                <img src="imagens/DigitalNet_03_1-8.png" alt="Logo DigitalNet" width="300px" height="80px"> 
                 <form action="login.php" method="post" autocomplete="on">
-                    <input class="Form" type="email" name="login" id="ilogin" placeholder="Usuário" required maxlength="10">
+                    <div class="Campo">
+                        <input type="email" name="login" id="ilogin" placeholder="Usuário" required maxlength="10">
+                    </div>
                     <br>
-                    <input class="Form" type="password" name="senha" id="isenha" placeholder="Senha" required maxlength="20">
+                    <div class="Campo">
+                        <input type="password" name="senha" id="isenha" placeholder="Senha" required maxlength="20">
+                    </div >
                     <br>
                     <input type="submit" value="Entrar">
                 </form>

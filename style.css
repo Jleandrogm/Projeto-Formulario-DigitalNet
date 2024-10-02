@@ -27,13 +27,14 @@ body,html{
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-
-}
-div#imagem{
-    width: 30vw;
 }
 section{
-    flex: auto;
-    margin-top: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
 
+}
+form > div.campo{
+    flex: auto;
 }

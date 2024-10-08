@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #295ba5;
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    box-shadow: 3px 10px 21px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 38px;
+    background-color: white;
+    margin: auto;
+    width: 500px;
+}
+img{
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+form{
+    margin-left: 50px;
+}
+input {
+    padding: 10px; /* Aumenta o espaço interno */
+    width: 300px;  /* Largura do campo */
+}

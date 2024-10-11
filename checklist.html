@@ -17,191 +17,193 @@
         </h1>
     </header>
     <main>
-        <section>
-            <p>
-                Data
-            </p>
-            <input type="date">
-        </section>
-        <section>
-            <P>
-                Nome Completo
-            </P>
-            <input type="text">
-        </section>
-        <section>
-            <p>
-                P.A
-            </p>
-            <label>
-                <input type="radio" name="escolha" value="opcao1"> Aero Rancho
-            </label>
-            <label>
-                <input type="radio" name="escolha" value="opcao2"> Chacará
-            </label>
-            <label>
-                <input type="radio" name="escolha" value="opcao1"> Los Angeles
-            </label>
-            <label>
-                <input type="radio" name="escolha" value="opcao2"> Nova Lima
-            </label>
-            <label>
-                <input type="radio" name="escolha" value="opcao1"> Itamaraca
-            </label>
-        </section>
-        <section>
-            <P>
-                Placa do Veículo
-            </P>
-            <input type="text">
-        </section>
-        <section>
-            <p>
-                Verificou o óleo do motor?
-            </p>
-            <label>
-                <input type="radio" name="escolha" value="opcao1"> Sim
-            </label>
-            <label>
-                <input type="radio" name="escolha" value="opcao2"> Não
-            </label>
-        </section>
-        <section>
-            <P>
-                Foto, nível, água do radiador?
-            </P>
-            <p>
-                Faça upload de 1 arquivo aceito: image. O tamanho máximo é de 1 GB.
-            </p>
-            <input type="file">
-        </section>
-        <section>
-            <p>
-                Os Pneus do veículo está calibrado?
-            </p>
-            <label>
-                <input type="radio" name="escolha" value="opcao1"> Sim
-            </label>
-            <label>
-                <input type="radio" name="escolha" value="opcao2"> Não
-            </label>
-        </section>
-        <section>
-            <P>
-                Verificou se o pneu estepe, está cheio. Calibrado?
-            </P>
-            <input type="text">
-        </section>
-        <section>
-            <P>
-                Verificou se o documento do carro está ok? Qual ano de exercício 
-            </P>
-            <input type="text">
-        </section>
-        <section>
-            <p>
-                As setas, farol, buzina do veículo estão funcionando corretamente? 
-            </p>
-            <label>
-                <input type="radio" name="escolha" value="opcao1"> Sim
-            </label>
-            <label>
-                <input type="radio" name="escolha" value="opcao2"> Não
-            </label>
-        </section>
-        <section>
-            <p>
-                Os Pneus do veículo se encontra em bom estado?
-            </p>
-            <label>
-                <input type="radio" name="escolha" value="opcao1"> Sim
-            </label>
-            <label>
-                <input type="radio" name="escolha" value="opcao2"> Não
-            </label>
-        </section>
-        <section>
-            <p>
-                Verificou se o veículo tem macaco, chave de roda e triangulo?
-            </p>
-            <label>
-                <input type="radio" name="escolha" value="opcao1"> Sim
-            </label>
-            <label>
-                <input type="radio" name="escolha" value="opcao2"> Não
-            </label>
-        </section>
-        <section>
-            <p>
-                As portas abre e fecha normalmente em condições seguras?
-            </p>
-            <label>
-                <input type="radio" name="escolha" value="opcao1"> Sim
-            </label>
-            <label>
-                <input type="radio" name="escolha" value="opcao2"> Não
-            </label>
-        </section>
-        <section>
-            <P>
-                O limpador de para-brisa funciona? Esta riscando o para-brisa
-            </P>
-            <input type="text">
-        </section>
-        <section>
-            <P>
-                A limpeza interior está em bom estado? Anexar Fotos
-            </P>
-            <p>
-                Faça upload de até 5 arquivos aceitos: image. O tamanho máximo é de 1 GB por item.
-            </p>
-            <input type="file">
-        </section>
-        <section>
-            <P>
-                O veículo apresenta avaria na lataria? Anexar fotos
-            </P>
-            <p>
-                Faça upload de até 10 arquivos aceitos: image. O tamanho máximo é de 1 GB por item.
-            </p>
-            <input type="file">
-        </section>
-        <section>
-            <P>
-                Informar o KM real do hodômetro do veículo.
-            </P>
-            <input type="text">
-        </section>
-        <section>
-            <P>
-                Foto etiqueta no para-brisa
-            </P>
-            <p>
-                Faça upload de 1 arquivo aceito: image. O tamanho máximo é de 100 MB.
-            </p>
-            <input type="file">
-        </section>
-        <section>
-            <P>
-                Foi realizado a lavagem externa nos últimos 07 dias?
-             </P>
-            <input type="text">
-        </section>
-        <section>
-            <P>
-                Internamente no veículo, está sendo realizado a limpeza? Em que condições está a limpeza interna? Quando foi a última vez que limpou?
-            </P>
-            <input type="text">
-        </section>
-        <section>
-            <P>
-                 Informar o ano de exercicio que consta no CERTIFICADO DE REGISTRO E LICENCIAMENTO DE VEÍCULO
-            </P>
-            <input type="text">
-        </section>
-        <section>
-            <input type="submit">
-        </section>
+        <form action="test.php" autocomplete="on">
+            <section>
+                <p>
+                    Data
+                </p>
+                <input type="date" requ>
+            </section>
+            <section>
+                <P>
+                    <label for="nome">Nome Completo</label>
+                </P>
+                <input type="text" name="nome" id="nome" required>
+            </section>
+            <section>
+                <p>
+                    P.A
+                </p>
+                <label>
+                    <input type="radio" name="escolha" value="opcao1"> Aero Rancho
+                </label>
+                <label>
+                    <input type="radio" name="escolha" value="opcao2"> Chacará
+                </label>
+                <label>
+                    <input type="radio" name="escolha" value="opcao1"> Los Angeles
+                </label>
+                <label>
+                    <input type="radio" name="escolha" value="opcao2"> Nova Lima
+                </label>
+                <label>
+                    <input type="radio" name="escolha" value="opcao1"> Itamaraca
+                </label>
+            </section>
+            <section>
+                <P>
+                    <label for="placa">Placa do Veículo</label>
+                </P>
+                <input type="text" name="placa" id="placa" required>
+            </section>
+            <section>
+                <p>
+                    Verificou o óleo do motor?
+                </p>
+                <label>
+                    <input type="radio" name="escolha" value="opcao1"> Sim
+                </label>
+                <label>
+                    <input type="radio" name="escolha" value="opcao2"> Não
+                </label>
+            </section>
+            <section>
+                <P>
+                    Foto, nível, água do radiador?
+                </P>
+                <p>
+                    Faça upload de 1 arquivo aceito: image. O tamanho máximo é de 1 GB.
+                </p>
+                <input type="file" required>
+            </section>
+            <section>
+                <p>
+                    Os Pneus do veículo está calibrado?
+                </p>
+                <label>
+                    <input type="radio" name="escolha" value="opcao1"> Sim
+                </label>
+                <label>
+                    <input type="radio" name="escolha" value="opcao2"> Não
+                </label>
+            </section>
+            <section>
+                <P>
+                    <label for="calibrado">Verificou se o pneu estepe, está cheio. Calibrado?</label>
+                </P>
+                <input type="text" name="calibrado" id="calibrado" required>
+            </section>
+            <section>
+                <P>
+                    <label for="documento">Verificou se o documento do carro está ok? Qual ano de exercício</label>
+                </P>
+                <input type="text" name="documento" id="documento" required>
+            </section>
+            <section>
+                <p>
+                    As setas, farol, buzina do veículo estão funcionando corretamente?
+                </p>
+                <label>
+                    <input type="radio" name="escolha" value="opcao1"> Sim
+                </label>
+                <label>
+                    <input type="radio" name="escolha" value="opcao2"> Não
+                </label>
+            </section>
+            <section>
+                <p>
+                    Os Pneus do veículo se encontra em bom estado?
+                </p>
+                <label>
+                    <input type="radio" name="escolha" value="opcao1"> Sim
+                </label>
+                <label>
+                    <input type="radio" name="escolha" value="opcao2"> Não
+                </label>
+            </section>
+            <section>
+                <p>
+                    Verificou se o veículo tem macaco, chave de roda e triangulo?
+                </p>
+                <label>
+                    <input type="radio" name="escolha" value="opcao1"> Sim
+                </label>
+                <label>
+                    <input type="radio" name="escolha" value="opcao2"> Não
+                </label>
+            </section>
+            <section>
+                <p>
+                    As portas abre e fecha normalmente em condições seguras?
+                </p>
+                <label>
+                    <input type="radio" name="escolha" value="opcao1"> Sim
+                </label>
+                <label>
+                    <input type="radio" name="escolha" value="opcao2"> Não
+                </label>
+            </section>
+            <section>
+                <P>
+                    <label for="para-brisa">O limpador de para-brisa funciona? Esta riscando o para-brisa</label>
+                </P>
+                <input type="text" name="para-brisa" id="para-brisa" required>
+            </section>
+            <section>
+                <P>
+                    A limpeza interior está em bom estado? Anexar Fotos
+                </P>
+                <p>
+                    Faça upload de até 5 arquivos aceitos: image. O tamanho máximo é de 1 GB por item.
+                </p>
+                <input type="file" required>
+            </section>
+            <section>
+                <P>
+                    O veículo apresenta avaria na lataria? Anexar fotos
+                </P>
+                <p>
+                    Faça upload de até 10 arquivos aceitos: image. O tamanho máximo é de 1 GB por item.
+                </p>
+                <input type="file" required>
+            </section>
+            <section>
+                <P>
+                    <label for="km">Informar o KM real do hodômetro do veículo.</label>
+                </P>
+                <input type="text" name="km" id="km" required>
+            </section>
+            <section>
+                <P>
+                    Foto etiqueta no para-brisa
+                </P>
+                <p>
+                    Faça upload de 1 arquivo aceito: image. O tamanho máximo é de 100 MB.
+                </p>
+                <input type="file" required>
+            </section>
+            <section>
+                <P>
+                    <label for="lavagem">Foi realizado a lavagem externa nos últimos 07 dias?</label>
+                 </P>
+                <input type="text" name="lavagem" id="lavagem" required>
+            </section>
+            <section>
+                <P>
+                    <label for="inter-limpeza">Internamente no veículo, está sendo realizado a limpeza? Em que condições está a limpeza interna? Quando foi a última vez que limpou?</label>
+                </P>
+                <input type="text" name="inter-limpeza" id="inter-limpeza" required>
+            </section>
+            <section>
+                <P>
+                     <label for="registro">Informar o ano de exercicio que consta no CERTIFICADO DE REGISTRO E LICENCIAMENTO DE VEÍCULO</label>
+                </P>
+                <input type="text" name="registro" id="registro" required> 
+            </section>
+            <section>
+                <input type="submit" value="Enviar">
+            </section>
+        </form>
     </main>
 </body>
 </html>

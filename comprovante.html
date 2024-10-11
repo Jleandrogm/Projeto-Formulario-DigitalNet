@@ -17,50 +17,55 @@
         </h1>
     </header>
     <main>
-        <section>
-            <p>
-                Data
-            </p>
-            <input type="date">
-        </section>
-        <section>
-            <P>
-                Nome Completo
-            </P>
-            <input type="text">
-        </section>
-        <section>
-            <p>
-                P.A
-            </p>
-            <label>
-                <input type="radio" name="escolha" value="opcao1"> Aero Rancho
-            </label>
-            <label>
-                <input type="radio" name="escolha" value="opcao2"> Chacará
-            </label>
-            <label>
-                <input type="radio" name="escolha" value="opcao1"> Los Angeles
-            </label>
-            <label>
-                <input type="radio" name="escolha" value="opcao2"> Nova Lima
-            </label>
-            <label>
-                <input type="radio" name="escolha" value="opcao1"> Itamaraca
-            </label>
-        </section>
-        <section>
-            <P>
-                Placa do Veículo
-            </P>
-            <input type="text">
-        </section>
-        <section>
-            <P>
-                Foto do Veículo
-            </P>
-            <input type="file">
-        </section>
+        <form action="cadastro.php" autocomplete="on">
+            <section>
+                <p>
+                    Data
+                </p>
+                <input type="date" required>
+            </section>
+            <section>
+                <P>
+                    <label for="nome">Nome Completo</label>
+                </P>
+                <input type="text" name="nome" id="nome" required>
+            </section>
+            <section>
+                <p>
+                    P.A
+                </p>
+                <label>
+                    <input type="radio" name="escolha" value="opcao1"> Aero Rancho
+                </label>
+                <label>
+                    <input type="radio" name="escolha" value="opcao2"> Chacará
+                </label>
+                <label>
+                    <input type="radio" name="escolha" value="opcao1"> Los Angeles
+                </label>
+                <label>
+                    <input type="radio" name="escolha" value="opcao2"> Nova Lima
+                </label>
+                <label>
+                    <input type="radio" name="escolha" value="opcao1"> Itamaraca
+                </label>
+            </section>
+            <section>
+                <P>
+                    <label for="placa">Placa do Veículo</label>
+                </P>
+                <input type="text" name="placa" id="placa" required>
+            </section>
+            <section>
+                <P>
+                    Foto do Veículo
+                </P>
+                <input type="file" required>
+            </section>
+            <section>
+                <input type="submit" value="Enviar">
+            </section>
+        </form>
     </main>
 </body>
 </html>

@@ -19,26 +19,26 @@
     <main>
         <form action="cadastro.php" autocomplete="on">
             <section>
-                <p>
-                    Data
-                </p>
-                <input type="date" required>
+                <label for="Data">
+                    <p class="titulo">Data</p>
+                </label>
+                <input type="date" name="Data" id="Data">
             </section>
             <section>
-                <P>
+                <P class="titulo">
                     <label for="nome">Nome Completo</label>
                 </P>
                 <input type="text" name="nome" id="nome" required>
             </section>
             <section>
-                <p>
+                <p class="titulo">
                     P.A
                 </p>
                 <label>
-                    <input type="radio" name="escolha" value="opcao1"> Aero Rancho
+                    Aero Rancho<input type="radio" name="escolha" value="opcao1">
                 </label>
                 <label>
-                    <input type="radio" name="escolha" value="opcao2"> Chacará
+                    Chacará <input type="radio" name="escolha" value="opcao2">
                 </label>
                 <label>
                     <input type="radio" name="escolha" value="opcao1"> Los Angeles
@@ -51,19 +51,20 @@
                 </label>
             </section>
             <section>
-                <P>
+                <P class="titulo">
                     <label for="placa">Placa do Veículo</label>
                 </P>
                 <input type="text" name="placa" id="placa" required>
             </section>
             <section>
-                <P>
+                <P class="titulo">
                     Foto do Veículo
                 </P>
                 <input type="file" required>
             </section>
             <section>
-                <input type="submit" value="Enviar">
+                <input class="enviar" type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
             </section>
         </form>
     </main>

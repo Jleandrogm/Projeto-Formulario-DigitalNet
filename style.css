@@ -33,4 +33,12 @@ form{
 input {
     padding: 10px; /* Aumenta o espaço interno */
     width: 300px;  /* Largura do campo */
+    border-radius: 5px;
+}
+.titulo{
+    font-size: 1.5em;
+    padding: 10px 10px 10px 0px;
+}
+.enviar:hover {
+    background-color: rgb(5, 172, 5);
 }

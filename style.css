@@ -3,18 +3,22 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 body{
     background-color: #295ba5;
     width: 100vw;
     height: 98vh;
     
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
+
 }
+nav{
+    background-color: white;
+    padding: 50px;
+}
+nav a{
+    margin: auto;
+}
+
 main{
     box-shadow: 3px 10px 21px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
@@ -22,6 +26,8 @@ main{
     background-color: white;
     margin: auto;
     width: 500px;
+
+    flex: auto;
 }
 .checklist{
     width: 600px;
@@ -42,6 +48,10 @@ input {
 .titulo{
     font-size: 1.5em;
     padding: 10px 10px 10px 0px;
+}
+.sub-titulo{
+    font-size: 1.2em;
+    padding-top: 5px
 }
 .enviar:hover {
     background-color: rgb(5, 172, 5);

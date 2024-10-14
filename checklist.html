@@ -12,71 +12,74 @@
             <a href="comprovante.html">Comprovante</a>
             <a href="checklist.html"> Checklist </a>
         </nav>
+    </header>
+    <main id="checklist">
         <h1>
             Obrigatório terça-feira de manhã
         </h1>
-    </header>
-    <main id="checklist">
         <form action="test.php" autocomplete="on">
             <section>
                 <label for="Data">
-                    Data<input type="date" name="Data" id="Data" required>
+                    <p class="titulo">Data</p>
+                    <input type="date" name="Data" id="Data" required>
                 </label>
             </section>
             <section>
-                <P>
-                    <label for="nome">Nome Completo</label>
-                </P>
-                <input type="text" name="nome" id="nome" required>
+                    <label for="nome">
+                        <p class="titulo">Nome Completo</p>
+                        <input type="text" name="nome" id="nome" required>
+                    </label>
             </section>
             <section>
-                <p>
+                <p class="titulo">
                     P.A
                 </p>
                 <label>
-                    <input type="radio" name="escolha" value="opcao1"> Aero Rancho
+                    Aero Rancho<input type="radio" name="escolha" value="opcao1">
                 </label>
                 <label>
-                    <input type="radio" name="escolha" value="opcao2"> Chacará
+                    Chacará<input type="radio" name="escolha" value="opcao2">
                 </label>
                 <label>
-                    <input type="radio" name="escolha" value="opcao1"> Los Angeles
+                    Los Angeles<input type="radio" name="escolha" value="opcao1">
                 </label>
                 <label>
-                    <input type="radio" name="escolha" value="opcao2"> Nova Lima
+                    Nova Lima<input type="radio" name="escolha" value="opcao2">
                 </label>
                 <label>
-                    <input type="radio" name="escolha" value="opcao1"> Itamaraca
+                    Itamaraca<input type="radio" name="escolha" value="opcao1">
                 </label>
             </section>
             <section>
-                <P>
-                    <label for="placa">Placa do Veículo</label>
-                </P>
-                <input type="text" name="placa" id="placa" required>
+                    <label for="placa">
+                        <p class="titulo">
+                            Placa do Veículo
+                        </p>
+                        <input type="text" name="placa" id="placa" required>
+                    </label>
             </section>
             <section>
-                <p>
-                    Verificou o óleo do motor?
-                </p>
-                <label>
-                    <input type="radio" name="escolha" value="opcao1"> Sim
+                <label for="">
+                    <p class="titulo">
+                        Verificou o óleo do motor?
+                    </p>
+                    Sim <input type="radio" name="escolha" value="opcao1">
                 </label>
                 <label>
-                    <input type="radio" name="escolha" value="opcao2"> Não
+                    Não <input type="radio" name="escolha" value="opcao2"> Não
                 </label>
             </section>
             <section>
-                <P>
+                <P class="titulo">
                     Foto, nível, água do radiador?
                 </P>
-                <p>
+                <p class="sub-titulo">
                     Faça upload de 1 arquivo aceito: image. O tamanho máximo é de 1 GB.
                 </p>
                 <input type="file" required>
             </section>
             <section>
-                <p>
+                <p class="titulo">
                     Os Pneus do veículo está calibrado?
                 </p>
                 <label>
@@ -87,10 +90,12 @@
                 </label>
             </section>
             <section>
-                <P>
-                    <label for="calibrado">Verificou se o pneu estepe, está cheio. Calibrado?</label>
-                </P>
-                <input type="text" name="calibrado" id="calibrado" required>
+                <label for="calibrado">
+                    <p class="titulo">
+                        Verificou se o pneu estepe, está cheio. Calibrado?
+                    </p>
+                    <input type="text" name="calibrado" id="calibrado" required>
+                </label>
             </section>
             <section>
                 <P>
